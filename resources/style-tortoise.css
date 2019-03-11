@@ -27,6 +27,7 @@ html {
 /* the top box in the header */
 
 .top {
+  margin-bottom: 10rem;
   color: white;
   display: flex;
   justify-content: space-between;
@@ -49,4 +50,15 @@ html {
 
 nav span {
   margin-right: 2rem;
+}
+
+/* the bottom box in the header */
+
+.bottom {
+  text-align: center;
+  padding: 1.5rem 5rem;
+  background-color: white;
+  font-weight: bold;
+  font-size: 2rem;
+  line-height: 1.2;
 }
