@@ -2,45 +2,38 @@
 
 html {
   font-size: 18px;
-  line-height: 1.4;
   font-family: Helvetica, sans-serif;
+  line-height: 1.4;
 }
 
 .box {
-  width: 960px;
+  max-width: 960px;
   margin: 0 auto;
 }
 
-/* heading and banner */
+/* heading and banner section */
 
 .header {
-  display: flex;
-  width: 100%;
   height: 30rem;
+  width: 100%;
   font-family: Helvetica;
-  background-position: center;
+  font-size: 1rem;
   background-repeat: no-repeat;
+  background-position: center;
   background-size: cover;
   background-image: url('../resources/tortoise-images/glasses-bg.png');
 }
 
-/* the top box in the header */
-
 .top {
-  margin-bottom: 10rem;
-  color: white;
+  position: relative;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  top: 1rem;
+  color: white;
+  width: 100%;
   background-color: cadetblue;
   padding: 1rem 2rem;
-  top: 1rem;
-  font-size: 1rem;
-}
-
-.logo {
-  display: flex;
-  align-items: center;
 }
 
 .top img {
@@ -48,17 +41,12 @@ html {
   margin-right: 1rem;
 }
 
-nav span {
-  margin-right: 2rem;
+.heading-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-/* the bottom box in the header */
-
-.bottom {
-  text-align: center;
-  padding: 1.5rem 5rem;
-  background-color: white;
-  font-weight: bold;
-  font-size: 2rem;
-  line-height: 1.2;
+nav span {
+  margin-right: 2rem;
 }
